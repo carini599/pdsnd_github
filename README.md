@@ -26,5 +26,5 @@ Files contain the columns
 * Birth Year (not available for Washington)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Thank you to all udacity teachers that guided me through the basics of SQL and Python for Data Science. It was a pleasure to follow the lessons. 
 
