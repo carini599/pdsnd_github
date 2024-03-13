@@ -3,8 +3,8 @@
 ### Date created
 Include the date you created this project and README file.
 
-### Project Title
-Replace the Project Title
+### Bikeshare.py 
+The project imports data of different cities of a bikeshare company and calculates basic statistics from it. These include time statistics, statistics about start and end station, trip duration and information about users. Finally, it can be chosen to be displayed some raw data of the chosen city.
 
 ### Description
 Describe what your project is about and what it does
