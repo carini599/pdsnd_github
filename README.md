@@ -10,7 +10,20 @@ The project imports data of different cities of a bikeshare company and calculat
 Describe what your project is about and what it does
 
 ### Files used
-Include the files used
+The program can choose between bikeshare csv-files from different cities:
+* washington.csv
+* new_york_city.csv
+* chicago.csv
+Files contain the columns
+* non-titled id
+* Start Time
+* End Time
+* Trip Duration
+* Start Station
+* End Station
+* User Type
+* Gender (not available for Washington)
+* Birth Year (not available for Washington)
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
