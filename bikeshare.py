@@ -8,7 +8,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 def get_filters():
     """
-    Asks user to specify a city, month, and day to analyze.
+    Asks user to specify a city, month, and day to analyze. When the user does not want to filter for month and/or day, it is possible to enter 'all' instead.
 
     Returns:
         (str) city - name of the city to analyze
@@ -214,6 +214,11 @@ def show_data(df):
         
         
 def main():
+    
+    """The main function first asks the user for input and loads data from city.csv-files. 
+    It calculates time statistics, station statistics, trip duration statistics and user statistics.
+    Finally the user can decide, whether some raw data are shown and if the program should restart from the beginning again."""
+
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
